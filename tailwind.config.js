@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#3e7cbd',
+      },
+      backgroundImage: {
+        'clouds': "url('/Images/card.png')",
+      },fontFamily: {
+        Inter: ['Inter', 'sans-serif'],
+       },
+    },
   },
   plugins: [],
 }
