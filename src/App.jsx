@@ -9,6 +9,7 @@ import Entertainment from "./Components/Blocks/Entertainment";
 import FlightTrainingRental from "./Components/Blocks/FlightTrainingRental";
 import HelicopterFlightTraining from "./Components/Blocks/HelicopterFlightTraining";
 import PilotSupplies from "./Components/Blocks/PilotSupplies";
+import Footer from "./Components/Footer";
 import Nav from "./Components/Nav";
 import PreNav from "./Components/PreNav";
 import Section from "./Components/Section";
@@ -32,6 +33,7 @@ export default function App() {
       <FlightTrainingRental />
       <HelicopterFlightTraining />
       <PilotSupplies />
+      {/* <Footer /> */}
     </div>
   )
 }

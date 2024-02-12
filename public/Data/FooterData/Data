@@ -1,0 +1,102 @@
+const navData = {
+    "headData": [
+        {
+            "QL": [
+                {
+                    "id": 1,
+                    "name": "Quick Links",
+                },
+            ],
+            "AA": [
+                {
+                    "id": 1,
+                    "name": "Airport Authority",
+                },
+            ],
+            "L": [
+                {
+                    "id": 1,
+                    "name": "Legal",
+                },
+            ],
+            "CU": [
+                {
+                    "id": 1,
+                    "name": "Contact Us",
+                },
+            ],
+        }
+    ],
+
+    "QuicksData": [
+        {
+            "id": 1,
+            "name": "Alliance Aviation/FBO",
+        },
+        {
+            "id": 2,
+            "name": "Business Directory",
+        },
+        {
+            "id": 3,
+            "name": "Airport Maps",
+        },
+        {
+            "id": 4,
+            "name": "Arrivals & Departures",
+        },
+        {
+            "id": 5,
+            "name": "Why Fly LNS",
+        },
+        {
+            "id": 6,
+            "name": "Airfield Conveniences",
+        },
+    ],
+
+    "AirportData": [
+        {
+            "id": 1,
+            "name": "Board Members & Staff",
+        },
+        {
+            "id": 2,
+            "name": "Meeting Minutes & Schedule",
+        },
+        {
+            "id": 3,
+            "name": "Right to Know",
+        },
+    ],
+
+    "LegalData": [
+        {
+            "id": 1,
+            "name": "Privacy Policy",
+        },
+    ],
+
+    "ContactData": [
+        {
+            "id": 1,
+            "icon": "Icons/location.svg",
+            "alt": "Not Available",
+            "name": "500 Airport Road, Suite G, Lititz, PA 17543",
+        },
+        {
+            "id": 2,
+            "icon": "Icons/message.svg",
+            "alt": "Not Available",
+            "name": "info@lancasterairport.com",
+        },
+        {
+            "id": 3,
+            "icon": "Icons/call.svg",
+            "alt": "Not Available",
+            "name": "717-569 - 1221",
+        },
+    ],
+}
+
+export default navData;
